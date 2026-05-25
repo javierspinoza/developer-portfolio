@@ -1,0 +1,17 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <path d="M0 470C160 430 280 506 438 462C596 418 660 278 838 286C1016 294 1060 428 1200 386V630H0V470Z" fill="#123148"/>
+  <path d="M782 122H1040C1060 122 1076 138 1076 158V416C1076 436 1060 452 1040 452H782C762 452 746 436 746 416V158C746 138 762 122 782 122Z" stroke="#38BDF8" stroke-width="3"/>
+  <path d="M798 174H1008" stroke="#34D399" stroke-width="7" stroke-linecap="round"/>
+  <path d="M798 230H930" stroke="#F8FAFC" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+  <path d="M798 286H990" stroke="#F8FAFC" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+  <path d="M798 342H905" stroke="#F8FAFC" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+  <circle cx="1040" cy="174" r="11" fill="#34D399"/>
+  <circle cx="1040" cy="230" r="11" fill="#38BDF8"/>
+  <circle cx="1040" cy="286" r="11" fill="#34D399"/>
+  <text x="86" y="150" fill="#38BDF8" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Javier Espinosa Pico</text>
+  <text x="82" y="254" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800">Full-Stack Developer</text>
+  <text x="86" y="330" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">ERP, e-commerce e IA</text>
+  <text x="88" y="406" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="30">SAP Business One · Odoo · Magento · Laravel · React · Python</text>
+  <text x="88" y="496" fill="#34D399" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Bucaramanga, Colombia / Remoto</text>
+</svg>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Javier Espinosa Pico | Full-Stack ERP, cloud, datos, QA e IA</title>
+    <meta
+      name="description"
+      content="Portafolio de Javier Espinosa Pico, Full-Stack Developer empresarial especializado en ERP/e-commerce, cloud, datos, QA, automatizacion e IA aplicada."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:site_name" content="Javier Espinosa Pico" />
+    <meta property="og:title" content="Javier Espinosa Pico | Full-Stack ERP, cloud, datos, QA e IA" />
+    <meta
+      property="og:description"
+      content="Full-Stack Developer empresarial especializado en ERP/e-commerce, cloud, datos, QA, automatizacion e IA aplicada."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:image" content="/meta/og-image.svg" />
+    <meta
+      property="og:image:alt"
+      content="Javier Espinosa Pico, Full-Stack Developer empresarial para ERP, cloud, datos, QA e IA"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Javier Espinosa Pico | Full-Stack ERP, cloud, datos, QA e IA" />
+    <meta
+      name="twitter:description"
+      content="Full-Stack Developer empresarial especializado en ERP/e-commerce, cloud, datos, QA, automatizacion e IA aplicada."
+    />
+    <meta name="twitter:image" content="/meta/og-image.svg" />
+    <meta
+      name="twitter:image:alt"
+      content="Javier Espinosa Pico, Full-Stack Developer empresarial para ERP, cloud, datos, QA e IA"
+    />
+
+    <link rel="preload" href="/fonts/urbanist-400.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/urbanist-700.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/urbanist-900.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/pro-font-windows-400.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/pro-font-windows-700.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+
+    <link rel="icon" type="image/svg+xml" href="/meta/favicon.svg" />
+
+    <meta name="theme-color" content="#111827" />
+    <style>
+      html {
+        background: #f5efe6;
+      }
+
+      body.is-loading {
+        overscroll-behavior: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+      }
+
+      .logo-defs {
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+      }
+
+      .preloader {
+        position: fixed;
+        z-index: 100;
+        inset: 0;
+        background-color: #f5efe6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        transition: opacity 0.25s ease-in-out;
+      }
+
+      .preloader-svg {
+        display: block;
+        width: min(120px, 28vw);
+        height: auto;
+        aspect-ratio: 56 / 61;
+        overflow: visible;
+        transition:
+          transform 0.2s ease-in,
+          opacity 0.2s ease-in;
+      }
+
+      .preloader-rect {
+        transform-box: fill-box;
+        transform-origin: center bottom;
+      }
+
+      .preloader-path {
+        fill: #28241f;
+      }
+
+      .preloader-hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .preloader-hidden svg {
+        transform: scale(0.4);
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body class="is-loading">
+    <svg class="logo-defs" viewBox="0 0 56 61" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <path
+          id="logo-path"
+          d="M3 14 24 2C28 0 28 0 32 2L53 14C56 16 56 17 56 19L56 43C56 46 55 47 51 49L32 59C28 61 28 61 24 59L5 49C1 47 0 46 0 43L0 19C0 17 0 16 3 14M28 4 5 17 28 28 51 17 28 4M53 20 30 31 30 56 53 44 53 20M40 42 33 35C33 35 32 34 33 33 34 32 35 33 36 34L36 34 43 41C44 42 44 42 43 43L35 51C35 51 34 52 33 51 32 50 33 49 33 49L40 42M16 42 23 35C23 35 24 34 23 33 22 32 21 33 20 34L13 41C12 42 12 42 13 43L21 51C21 51 22 52 23 51 24 50 23 49 23 49L16 42"
+        ></path>
+      </defs>
+    </svg>
+    <div id="app"></div>
+    <div class="preloader">
+      <svg class="preloader-svg" viewBox="0 0 56 61" xmlns="http://www.w3.org/2000/svg">
+        <mask id="preloader-mask">
+          <rect fill="black" height="61" width="61"></rect>
+          <rect fill="white" height="61" width="61" class="preloader-rect" style="transform: scaleY(0)"></rect>
+        </mask>
+
+        <use href="#logo-path" class="preloader-path" opacity="0.3"></use>
+        <use href="#logo-path" class="preloader-path" mask="url(#preloader-mask)"></use>
+      </svg>
+    </div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

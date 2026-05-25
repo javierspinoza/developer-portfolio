@@ -1,0 +1,103 @@
+import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
+import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
+import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
+import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
+import thumbnailSenaProject from "../../../assets/thumbnails/senaproyect.webp";
+import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
+import thumbnailStreakon from "../../../assets/thumbnails/streakon.webp";
+
+import type { ProjectPreview } from "../../types";
+
+export default [
+  {
+    title: "ERP/e-commerce with reliable historical data",
+    slug: "erp-ecommerce",
+    thumbnail: thumbnailStreakon,
+    category: "ERP / e-commerce / data",
+    filters: ["erp", "ecommerce", "fullstack", "automation", "qa", "analytics"],
+    company: "Industrias Bicicletas Milan S.A.",
+    description: "SAP Business One, Odoo.sh and Magento 2 connected for inventory, orders, history and measurement.",
+    results: ["10 years of data", "Inventory sync", "QA + analytics"],
+    tags: ["sap", "odoo", "magento", "python", "django", "fastapi", "postgresql", "aws"],
+    status: "Confidential: no public demo",
+    confidential: true,
+  },
+  {
+    title: "AI automation for e-commerce marketing",
+    slug: "marketing-ai",
+    thumbnail: thumbnailCubeWar,
+    category: "AI / automation / QA",
+    filters: ["ai", "fullstack", "automation", "qa", "analytics", "ecommerce"],
+    company: "Industrias Bicicletas Milan S.A.",
+    description: "RAG pipelines, agents and Vercel AI SDK for content, review, SEO and measurement.",
+    results: ["-40% manual work", "RAG + agents", "Applied MLOps"],
+    tags: ["react", "node", "vercelai", "rag", "crewai", "pydanticai", "langgraph", "analytics"],
+    status: "Confidential: no public code",
+    confidential: true,
+  },
+  {
+    title: "Custom CRM for Isavital",
+    slug: "crm-isavital",
+    thumbnail: thumbnailQuibbo,
+    category: "CRM / Java / Full-Stack",
+    filters: ["crm", "java", "fullstack", "automation", "qa"],
+    company: "Soluciones Isavital SAS",
+    description: "Laravel/Livewire CRM and React/Spring Boot portal for customers, appointments, roles and predictive after-sales.",
+    results: ["100% customers and appointments", "Java/Spring portal", "After-sales AI"],
+    tags: ["laravel", "livewire", "mysql", "react", "java", "spring", "typescript", "tailwind", "linux"],
+    status: "Private client project",
+    confidential: true,
+  },
+  {
+    title: "Hotel booking with payments and roles",
+    slug: "pc-hotel-booking",
+    thumbnail: thumbnailPokedex,
+    category: "Booking / payments / business",
+    filters: ["fullstack", "business", "automation"],
+    company: "PC Ingenieria de Software SAS",
+    description: "Laravel, Livewire and MySQL for bookings, payment gateways, RBAC and hotel administration.",
+    results: ["Integrated payments", "Operational RBAC", "Traceable flow"],
+    tags: ["laravel", "livewire", "mysql", "bootstrap", "gray"],
+    status: "Confidential client case",
+    confidential: true,
+  },
+  {
+    title: "Logistics for imports and inventory",
+    slug: "pc-logistics",
+    thumbnail: thumbnailParticles,
+    category: "Logistics / inventory",
+    filters: ["logistics", "business", "fullstack"],
+    company: "PC Ingenieria de Software SAS",
+    description: "Vue.js, JavaScript and Bootstrap for supply chain, imports and inventory traceability.",
+    results: ["Supply chain", "Traceable inventory", "Responsive interface"],
+    tags: ["vue", "javascript", "bootstrap", "mysql", "gray"],
+    status: "Private project: no operational data",
+    confidential: true,
+  },
+  {
+    title: "Sustainability and waste traceability",
+    slug: "pc-sustainability",
+    thumbnail: thumbnailSharkie,
+    category: "Sustainability / SSR",
+    filters: ["sustainability", "business", "fullstack"],
+    company: "PC Ingenieria de Software SAS",
+    description: "Next.js, React and SSR for waste traceability, collection and reuse.",
+    results: ["Environmental traceability", "Next.js + SSR", "Responsive"],
+    tags: ["next", "react", "javascript", "html", "css", "gray"],
+    status: "Private case: no public demo",
+    confidential: true,
+  },
+  {
+    title: "SENA access control and attendance",
+    slug: "sena-access-control",
+    thumbnail: thumbnailSenaProject,
+    category: "Access control / education",
+    filters: ["access", "fullstack", "business"],
+    company: "SENA",
+    description: "Institutional system to record student attendance, control entry and digitize administration.",
+    results: ["Faster entry", "Peak hours", "Multi-device"],
+    tags: ["laravel", "vue", "bootstrap", "mysql", "gray"],
+    status: "Institutional case: no personal data",
+    confidential: true,
+  },
+] as const satisfies ProjectPreview[];
